@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Quod Pod Sync
+GenericName=iPod Sync
+Comment=Sync your iPod with your music folder and Quod Libet playlists
+Exec=quod-pod-sync
+Icon=quodpodsync
+Terminal=false
+Categories=AudioVideo;Audio;
+Keywords=ipod;sync;music;quod libet;
+StartupWMClass=quodpodsync

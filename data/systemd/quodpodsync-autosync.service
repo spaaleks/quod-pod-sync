@@ -1,0 +1,7 @@
+[Unit]
+Description=QuodPodSync: autosync connected iPods
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/quod-pod-sync autosync
+Nice=10

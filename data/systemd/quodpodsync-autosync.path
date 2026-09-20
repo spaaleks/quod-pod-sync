@@ -1,0 +1,10 @@
+[Unit]
+Description=QuodPodSync: watch for mounted drives to autosync iPods
+
+[Path]
+# fires when udisks creates or removes a mount point, e.g. /run/media/<user>/IPOD
+PathChanged=/run/media/%u
+Unit=quodpodsync-autosync.service
+
+[Install]
+WantedBy=default.target
